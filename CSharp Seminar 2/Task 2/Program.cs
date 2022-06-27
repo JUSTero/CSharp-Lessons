@@ -10,6 +10,13 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число");
+            int num = Convert.ToInt32(Console.ReadLine());
+            
+            if (num / 100 == 0)
+            {
+                Console.WriteLine("Нет третьей цифры");
+            }
         }
     }
 }
