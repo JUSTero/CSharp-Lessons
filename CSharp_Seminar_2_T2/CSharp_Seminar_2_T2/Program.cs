@@ -27,6 +27,11 @@ namespace CSharp_Seminar_2_T2
                 Console.WriteLine("Здесь " + b + " обходит оппонентов");
             }
 
+            else if (a == b & b == c)
+            {
+                Console.WriteLine("Введены одинаковые числа");
+            }
+
             else
             {
                 Console.WriteLine("Здесь " + c + " побеждает");
