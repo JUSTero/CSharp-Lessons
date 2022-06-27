@@ -20,9 +20,14 @@ namespace CSharp_Seminar_1_T1
                 Console.WriteLine("В этом случае " + a + " больше");
             }
 
-            else
+            else if (a < b)
             {
                 Console.WriteLine("В этом случае " + b + " больше");
+            }
+
+            else
+            {
+                Console.WriteLine("Введены одинаковые числа");
             }
         }
     }
