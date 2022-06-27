@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Seminar 2", "CSharp Seminar 2\CSharp Seminar 2.csproj", "{4EF60B88-8B84-4C3E-86AD-D79798F335B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Seminar 2 T1", "CSharp Seminar 2\CSharp Seminar 2 T1.csproj", "{4EF60B88-8B84-4C3E-86AD-D79798F335B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{BF73E94B-4BFD-4067-8366-BA912AED5DBA}"
 EndProject
