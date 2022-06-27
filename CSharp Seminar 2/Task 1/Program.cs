@@ -10,6 +10,11 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите трехзначное число");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            num = num / 10 % 10;
+            Console.WriteLine(num);
         }
     }
 }
