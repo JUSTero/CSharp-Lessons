@@ -14,9 +14,21 @@ namespace CSharp_Seminar_1_T4
             int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ваши четные числа");
 
-            for (int i = 2; i <= number; i += 2)
+            if (number > 0)
             {
-                Console.WriteLine(i);
+
+                for (int i = 2; i <= number; i += 2)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+
+            else if (number < 0)
+            {
+                for (int i = -2; i > number; i -= 2)
+                {
+                    Console.Write(i + " ");
+                }
             }
         }
     }
