@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1", "SCharp Seminar 3 Homework\Task 1.csproj", "{B9FEC967-82EF-426A-8B05-72EB9B4A26D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2", "Task 2\Task 2.csproj", "{BBA45E69-2500-4492-BF43-80441A6E0B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Task 3\Task 3.csproj", "{4451A347-3140-4D79-BE8A-78DE0E560B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FEC967-82EF-426A-8B05-72EB9B4A26D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FEC967-82EF-426A-8B05-72EB9B4A26D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FEC967-82EF-426A-8B05-72EB9B4A26D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FEC967-82EF-426A-8B05-72EB9B4A26D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA45E69-2500-4492-BF43-80441A6E0B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA45E69-2500-4492-BF43-80441A6E0B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA45E69-2500-4492-BF43-80441A6E0B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA45E69-2500-4492-BF43-80441A6E0B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4451A347-3140-4D79-BE8A-78DE0E560B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4451A347-3140-4D79-BE8A-78DE0E560B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4451A347-3140-4D79-BE8A-78DE0E560B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4451A347-3140-4D79-BE8A-78DE0E560B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEB70649-3C2A-4172-8F82-091D34827A1E}
+	EndGlobalSection
+EndGlobal
