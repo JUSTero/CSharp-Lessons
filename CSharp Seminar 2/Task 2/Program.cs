@@ -13,9 +13,16 @@ namespace Task_2
             Console.WriteLine("Введите число");
             string num = Console.ReadLine();
 
+            int temp = Convert.ToInt32(num);
+
             if (num.Length < 3)
             {
                 Console.WriteLine("Нет третьей цифры");
+            }
+
+            if (temp < 0)
+            {
+                Console.WriteLine(num[3]);
             }
 
             else
