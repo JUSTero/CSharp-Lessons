@@ -18,7 +18,7 @@ namespace Online_Task_1
                     tempSum += i;
                 }
 
-                Console.WriteLine(tempSum);
+                Console.WriteLine(num + " => " +tempSum);
             }
 
             Console.WriteLine("Введите число");
