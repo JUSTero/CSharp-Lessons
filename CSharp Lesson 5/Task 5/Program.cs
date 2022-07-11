@@ -18,7 +18,7 @@ namespace Task_5
             Console.WriteLine("Create array:");
             for (int i = 0; i < lenght; i++)
             {
-                numbers[i] = random.Next(101);
+                numbers[i] = random.Next(11);
                 Console.Write($"{numbers[i], 3}");
             }
 
@@ -28,12 +28,12 @@ namespace Task_5
 
             for (int i = 0; i < lenght / 2; i++)
             {
-                result[i] = numbers[i] + numbers[size - i];
-                Console.Write($"{result[i], 4}");
+                result[i] = numbers[i] * numbers[size - i];
+                Console.Write($"{result[i], 3}");
             }
             if (lenght % 2 != 0)
             {
-                Console.Write($"{numbers[lenght / 2], 4}");
+                Console.Write($"{numbers[lenght / 2], 3}");
             }
             Console.WriteLine();
         }
