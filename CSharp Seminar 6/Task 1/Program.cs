@@ -26,9 +26,9 @@ namespace Task_1
             for (int i = 0; i < lenght; i++)
             {
                 num[i] = random.Next(botLim, topLim);
-                Console.Write($"{num[i], -5}");
             }
-            Console.WriteLine();
+
+            Console.WriteLine(String.Join(" ", num));
             Console.WriteLine("Reverse array:");
 
             for (int i = 0; i < lenght / 2; i++)
@@ -38,12 +38,7 @@ namespace Task_1
                 num[size - i] = temp;
             }
 
-            for (int i = 0; i < lenght; i++)
-            {
-                Console.Write($"{num[i], -5}");
-            }
-
-            Console.WriteLine();
+            Console.WriteLine(String.Join(" ", num));
         }
 
        
