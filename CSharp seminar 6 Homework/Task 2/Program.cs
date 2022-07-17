@@ -24,6 +24,11 @@ namespace Task_2
                 Console.WriteLine("No intersection point. Lines are parallel");
             }
 
+            else if (b1 == b2)
+            {
+                Console.WriteLine("No intersection point. Lines coincide");
+            }
+
             else
             {
                 double x = (b2 - b1) / (k1 - k2);
