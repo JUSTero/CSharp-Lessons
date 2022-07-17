@@ -34,7 +34,6 @@ namespace Task_3
             }
 
             Console.WriteLine("Arithmetic mean of each column:");
-            double[] average = new double[columns];
 
             for (int j = 0; j < columns; j++)
             {
@@ -44,9 +43,7 @@ namespace Task_3
                     sum += numbers[i, j];
                 }
 
-                average[j] = sum / lines;
-
-                Console.Write($"{average[j], 5}");
+                Console.Write($"{sum / lines, 5}");
             }
 
             Console.WriteLine();
