@@ -41,7 +41,7 @@ namespace Task_3
                 {
                     for (int j = 0; j < columns; j++)
                     {
-                        if (i % 2 == 0 && j % 2 == 0 && i != 0 && j != 0)
+                        if (i % 2 == 0 && j % 2 == 0)
                         {
                             numbers[i, j] = Math.Pow(numbers[i, j], 2);
                         }
