@@ -31,11 +31,10 @@ namespace Task_2
 
             else
             {
-                double x = (b2 - b1) / (k1 - k2);
-                double y1 = k1 * x + b1;
-                double y2 = k2 * x + b2;
+                double x = (b1 - b2) / (k2 - k1);
+                double y = k1 * x + b1;
 
-                Console.WriteLine("Intersection point coordinates: x = " + x + " y = " + y1);
+                Console.WriteLine("Intersection point coordinates: x = " + x + " y = " + y);
             }
         }
     }
