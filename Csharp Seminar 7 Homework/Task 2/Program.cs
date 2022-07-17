@@ -35,9 +35,9 @@ namespace Task_2
 
             Console.WriteLine("Enter the disired position");
             Console.WriteLine("line:");
-            int spline = Convert.ToInt32(Console.ReadLine());
+            int spline = Convert.ToInt32(Console.ReadLine()) - 1;
             Console.WriteLine("Column:");
-            int spcolumn = Convert.ToInt32(Console.ReadLine());
+            int spcolumn = Convert.ToInt32(Console.ReadLine()) - 1;
 
             if (spline >= numbers.GetLength(0)  || spcolumn >= numbers.GetLength(1))
             {
