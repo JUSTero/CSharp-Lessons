@@ -15,7 +15,7 @@ namespace Task_1
             Console.WriteLine("Enter the number of columns");
             int columns = Convert.ToInt32(Console.ReadLine());
             Random random = new Random();
-            double[,] numbers = new double[columns, columns];
+            double[,] numbers = new double[lines, columns];
             Console.WriteLine("Created array:");
 
             for (int i = 0; i < lines; i++)
